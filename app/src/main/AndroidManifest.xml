@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uk.ac.westminster.coursework">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CourseWork">
+
+        <activity
+            android:name=".CarMakeList"
+            android:label="Identify the Car Name" />
+        <activity
+            android:name=".CarHints"
+            android:label="Hints For Car Names" />
+        <activity
+            android:name=".AdvancedLevel"
+            android:label="Advanced Level" />
+        <activity
+            android:name=".CarImage"
+            android:label="Identify the Car Image" />
+        <activity android:name=".ListOfCars" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Car More">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
